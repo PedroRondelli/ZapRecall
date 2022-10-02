@@ -1,12 +1,11 @@
 import GlobalStyle from "./globalStyles.js";
 import Rodapé from "./Rodapé.js";
-import SessãoCards from "./SessãoCards";
+import Container from "./Container";
 
 export default function App() {
     return (
         <>
-            <SessãoCards />
-            <Rodapé/>
+            <Container />
             <GlobalStyle />
         </>
     )
